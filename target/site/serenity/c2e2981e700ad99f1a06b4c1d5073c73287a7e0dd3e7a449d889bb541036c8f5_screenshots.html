@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="b70a7af1621c7f17db4a967a1cee9b1430093c1098938cce4f9b6435560210b3.html">Realizar El Registro De La Informaci&oacute;n B&aacute;sica De Los Usuarios Del Hospital, Para Gestionar La Cita Medica</a></span>
+                > <span class="truncate-60"><a
+                    href="c2e2981e700ad99f1a06b4c1d5073c73287a7e0dd3e7a449d889bb541036c8f5.html"> </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-09-2018 17:01</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Realizar El Registro De La Información Básica De Los Usuarios Del Hospital, Para Gestionar La Cita Medica </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como Doctor
+Quiero Realizar la solicitud de una cita médica
+A través del sistema de administración de Hospitales
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="31cebeee8b6fa879fe7596010f78887ae9afd6814ec35c940a54f02f07ca45e2.html">Registrodoctor
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="73374383f6c63ae28d422c0c9267b35554150137f8aafc56bdba061d0cab05aa.html">Regresionhospital
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado que Elizabeth necesita registrar una persona en el sistema administrativo del Hospital<br>Cuando ella realiza el registro del mismo en el aplicativo de Administración de Hospitales<br>Entonces ella verifica que se presente en pantalla el mensaje Datos guardados correctamente.</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="0bad3e275ac48d6ed01cbcbaac0a5364085becf821b63e22cab6bb300d74905d.png" title=" #1: {Nombre=Natalia, Apellidos=Cruz, Telefono=3036268, TipoDocto=C&eacute;dula de ciudadan&iacute;a, Documento=2191823}" width="1366"/>
+                <img src="adab466cbebfdee07652a42b71b06ad342f555f6b47e9a0c3ed7af09fd6c6374.png" title="Dado que Elizabeth necesita registrar una persona en el sistema administrativo del Hospital" width="1366"/>
+                <img src="adab466cbebfdee07652a42b71b06ad342f555f6b47e9a0c3ed7af09fd6c6374.png" title="Elizabeth opens the Registro informacion page" width="1366"/>
+                <img src="0bad3e275ac48d6ed01cbcbaac0a5364085becf821b63e22cab6bb300d74905d.png" title="Cuando ella realiza el registro del mismo en el aplicativo de Administraci&oacute;n de Hospitales
+| Nombre | Apellidos | Telefono | TipoDocto | Documento |
+| Natalia | Cruz | 3036268 | C&eacute;dula de ciudadan&iacute;a | 2191823 |" width="1366"/>
+                <img src="aad991bb316fac985871d86bd9e0255a5935e24a4b5acec2f0b315e62d9fa9d3.png" title="Elizabeth clicks on Acceder Formulario Doctor" width="1366"/>
+                <img src="b075e9c897dad310ba513de97f60122a3dfd62d5dad7364d66763b44dfcf77f0.png" title="Elizabeth enters 'Natalia' into First Name" width="1366"/>
+                <img src="8d5ef1d09afd48d2157fa07df41837347b4428cd8473affe1c9fdc17809c1a25.png" title="Elizabeth enters 'Cruz' into Apellidos del doctor" width="1366"/>
+                <img src="dd83c5a217429638bd2576486c316f16f39d70d0497965a039567cded742fe2b.png" title="Elizabeth enters '3036268' into Telefono del doctor" width="1366"/>
+                <img src="91b74157f3bcd14e74f189896dc26a4f1a60a122bd9cb14ab9925e985e48631f.png" title="Elizabeth select C&eacute;dula de ciudadan&iacute;a on Tipo de documento del Doctor" width="1366"/>
+                <img src="023ea979fda2c228ea3050d0710db3a69ce92025798b2eda77000546d6682147.png" title="Elizabeth enters '2191823' into Nro de documento del doctor" width="1366"/>
+                <img src="0bad3e275ac48d6ed01cbcbaac0a5364085becf821b63e22cab6bb300d74905d.png" title="Elizabeth clicks on Boton para guardar la informaci&oacute;n registrada del doctor" width="1366"/>
+                <img src="0bad3e275ac48d6ed01cbcbaac0a5364085becf821b63e22cab6bb300d74905d.png" title="Entonces ella verifica que se presente en pantalla el mensaje Datos guardados correctamente." width="1366"/>
+                <img src="0bad3e275ac48d6ed01cbcbaac0a5364085becf821b63e22cab6bb300d74905d.png" title="Then elmensaje should be 'Datos guardados correctamente.'" width="1366"/>
+                <img src="adab466cbebfdee07652a42b71b06ad342f555f6b47e9a0c3ed7af09fd6c6374.png" title="Dado que Elizabeth necesita registrar una persona en el sistema administrativo del Hospital" width="1366"/>
+                <img src="adab466cbebfdee07652a42b71b06ad342f555f6b47e9a0c3ed7af09fd6c6374.png" title="Elizabeth opens the Registro informacion page" width="1366"/>
+                <img src="c4e88373eb58214a902110f38f3e129959d78a286d01157ea40e25583ac02239.png" title="Cuando ella realiza el registro en el aplicativo
+| Nombre | Apellidos | Telefono | TipoDocto | Documento |
+| Eliana | Cardona | 3036268 | C&eacute;dula de ciudadan&iacute;a | 6764301 |" width="1366"/>
+                <img src="92bbcbd00cd0157de9fa9733c4792c3fec18338c4e4b5ba1baaef9e2357c0b7e.png" title="Elizabeth clicks on Acceder Formulario Paciente" width="1366"/>
+                <img src="e475d886e0d6668eec953c3739ad683de6bb2a2dc82ff9a022b8700cc46c79e1.png" title="Elizabeth enters 'Eliana' into First Name" width="1366"/>
+                <img src="73cd0d3ae9cdedf3b7bcc4a1f242df6ce701b9075f8f639da6a992f45e411f53.png" title="Elizabeth enters 'Cardona' into Apellidos del doctor" width="1366"/>
+                <img src="7f22f17587a5e33b9398c6ce0559be77ff68c168045ff5ac995d52a896f02e0d.png" title="Elizabeth enters '3036268' into Telefono del doctor" width="1366"/>
+                <img src="c00dbcb7dad89888d361c5a731cf01e0426dc9c13016508de7e88a9d2e9eb635.png" title="Elizabeth select C&eacute;dula de ciudadan&iacute;a on Tipo de documento del Doctor" width="1366"/>
+                <img src="87816936a4a05da1eb7c0667f64d37eaeeb4fe0b157c359bcb3c496b99a5ba30.png" title="Elizabeth enters '6764301' into Nro de documento del doctor" width="1366"/>
+                <img src="2405dfa9fbf9ceac7195afaf62738ad8a2392ae11624c9963eca6994c564f37f.png" title="Elizabeth clicks on Seleccionar Prepagada" width="1366"/>
+                <img src="c4e88373eb58214a902110f38f3e129959d78a286d01157ea40e25583ac02239.png" title="Elizabeth clicks on Boton para guardar la informaci&oacute;n registrada del doctor" width="1366"/>
+                <img src="c4e88373eb58214a902110f38f3e129959d78a286d01157ea40e25583ac02239.png" title="Entonces ella verifica que se presente en pantalla el mensaje Datos guardados correctamente." width="1366"/>
+                <img src="c4e88373eb58214a902110f38f3e129959d78a286d01157ea40e25583ac02239.png" title="Then elmensaje should be 'Datos guardados correctamente.'" width="1366"/>
+                <img src="adab466cbebfdee07652a42b71b06ad342f555f6b47e9a0c3ed7af09fd6c6374.png" title="Dado que Elizabeth necesita acceder a una cita Medica" width="1366"/>
+                <img src="adab466cbebfdee07652a42b71b06ad342f555f6b47e9a0c3ed7af09fd6c6374.png" title="Elizabeth opens the Registro cita medica pacientes" width="1366"/>
+                <img src="152dc9f5fb1879f0ff9269527996a5a96a76a4a39a1fea446fbf890296e5534f.png" title="Cuando Ella realiza el agendamiento de la cita
+| Fecha | DocIdentidadPaciente | DocumentoIdentidadDoctor | Observaciones |
+| 09/18/2018 | 67643201 | 21891823 | Cita prioritaria |" width="1366"/>
+                <img src="d2c16974e93c0ff7cb4b49f4185f0c2e5eb3d182194065bc0842fd0b26b81e04.png" title="Elizabeth clicks on Acceder Formulario para la creaci&oacute;n de la citamedica" width="1366"/>
+                <img src="7fcba6a5c985a68ba9ca0a61f0dff5c9f3fee24d3634c9dee931ff695a18ef91.png" title="Elizabeth enters '09/18/2018' into Fecha Cita Medica" width="1366"/>
+                <img src="e41f9bbabd551912017a7a1555775ce7ed9b1b2d5833df6ccf9893f010c39510.png" title="Elizabeth enters '67643201' into Documento identidad Paciente" width="1366"/>
+                <img src="9a746ad7e785e25e5665f75a33dad8a2ab92534831107771fb2762ac38fedfdc.png" title="Elizabeth enters '21891823' into Documento identidad Doctor" width="1366"/>
+                <img src="467e91a42d5fb69d86ef74785bb3c9b08b441263a20cad125be695bde4f52ff2.png" title="Elizabeth enters 'Cita prioritaria' into Observaciones Cita Medica" width="1366"/>
+                <img src="152dc9f5fb1879f0ff9269527996a5a96a76a4a39a1fea446fbf890296e5534f.png" title="Elizabeth clicks on Boton para guardar la informaci&oacute;n de la cita medica del paciente" width="1366"/>
+                <img src="152dc9f5fb1879f0ff9269527996a5a96a76a4a39a1fea446fbf890296e5534f.png" title="Entonces ella verifica que se presente en pantalla el mensaje Datos guardados correctamente." width="1366"/>
+                <img src="152dc9f5fb1879f0ff9269527996a5a96a76a4a39a1fea446fbf890296e5534f.png" title="Then elmensaje should be 'Datos guardados correctamente.'" width="1366"/>
+                <img src="adab466cbebfdee07652a42b71b06ad342f555f6b47e9a0c3ed7af09fd6c6374.png" title="Dado que Elizabeth necesita acceder a una cita Medica" width="1366"/>
+                <img src="adab466cbebfdee07652a42b71b06ad342f555f6b47e9a0c3ed7af09fd6c6374.png" title="Elizabeth opens the Registro cita medica pacientes" width="1366"/>
+                <img src="c48babd871d369b1f13583414cc2de74d66fbd5e85afe56cc6f1c3bb891bce4c.png" title="Cuando Ella realiza el agendamiento de la cita
+| Fecha | DocIdentidadPaciente | DocumentoIdentidadDoctor | Observaciones |
+| 09/12/2018 | 67643201 | 21891823 | Cita prioritaria |" width="1366"/>
+                <img src="d2c16974e93c0ff7cb4b49f4185f0c2e5eb3d182194065bc0842fd0b26b81e04.png" title="Elizabeth clicks on Acceder Formulario para la creaci&oacute;n de la citamedica" width="1366"/>
+                <img src="7f310a299ba23da2886fd3cebfe2c5b9bc2b16c0343d0e9cdd15c2ce0e5ed0dd.png" title="Elizabeth enters '09/12/2018' into Fecha Cita Medica" width="1366"/>
+                <img src="221b71138a6fe7a3d2b088a2d6b447258ae8be40ce10f4453408d12a40c7d303.png" title="Elizabeth enters '67643201' into Documento identidad Paciente" width="1366"/>
+                <img src="c75979364e19f27fa986f34cbe73a40242a18ba7df845d90b27f4eb9177e3aa1.png" title="Elizabeth enters '21891823' into Documento identidad Doctor" width="1366"/>
+                <img src="d922b36bccbd12a13ad61b124432dcdd93ae17fd837c98bfc1efb187b1750f05.png" title="Elizabeth enters 'Cita prioritaria' into Observaciones Cita Medica" width="1366"/>
+                <img src="c48babd871d369b1f13583414cc2de74d66fbd5e85afe56cc6f1c3bb891bce4c.png" title="Elizabeth clicks on Boton para guardar la informaci&oacute;n de la cita medica del paciente" width="1366"/>
+                <img src="c48babd871d369b1f13583414cc2de74d66fbd5e85afe56cc6f1c3bb891bce4c.png" title="Entonces ella verifica que se presente en pantalla el mensaje Datos guardados correctamente." width="1366"/>
+                <img src="c48babd871d369b1f13583414cc2de74d66fbd5e85afe56cc6f1c3bb891bce4c.png" title="Then elmensaje should be 'Datos guardados correctamente.': <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
