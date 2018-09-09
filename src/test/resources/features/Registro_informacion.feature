@@ -1,6 +1,7 @@
 #language:es
 #Author: ecruz@choucairtesting.com
 
+
 @RegresionHospital
 
 Característica: Realizar el registro de la información básica de los usuarios del hospital, para gestionar la cita medica
