@@ -23,7 +23,7 @@ Esquema del escenario:
 Ejemplos:
 
 |Nombre|Apellidos|Telefono|TipoDocto|Documento|
-|Natalia|Cruz|3036268|Cédula de ciudadanía|2191823|
+|Natalia|Cruz|3036268|Cédula de ciudadanía|2191182311|
 
 
  @RegistroPaciente
@@ -40,7 +40,7 @@ Esquema del escenario:
 Ejemplos:
 
 |Nombre|Apellidos|Telefono|TipoDocto|Documento|
-|Eliana|Cardona|3036268|Cédula de ciudadanía|6764301| 
+|Eliana|Cardona|3036268|Cédula de ciudadanía|6762243011| 
   
   
  @CrearCitaMedica
@@ -57,7 +57,7 @@ Ejemplos:
 Ejemplos:
 
 |Fecha|DocIdentidadPaciente|DocumentoIdentidadDoctor|Observaciones|
-|09/18/2018|67643201|21891823|Cita prioritaria|
-|09/12/2018|67643201|21891823|Cita prioritaria| 
+|09/18/2018|67624301|21911823|Cita prioritaria|
+|09/12/2018|67624301|21911823|Cita prioritaria| 
   
   
